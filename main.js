@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/node_modules|.history|bazel|scripts/);
+        return !name.match(/node_modules|.history|bazel|scripts|MathJax|highlight/);
     };
 });
